@@ -65,13 +65,13 @@ namespace GameHub.EditorTools
         }
 
         /// <summary>
-        /// Everything a fresh copy needs: the Pocket Putt course, the menu, and the
+        /// Everything a fresh copy needs: the Pocket Putt scene and assets, the menu, and the
         /// build list. Ring Toss's scene is committed and is not regenerated here.
         /// </summary>
         [MenuItem("Game Hub/Build All Generated Scenes")]
         public static void BuildAll()
         {
-            PocketPutt.EditorTools.BuildPrototypeLevel.Build();
+            PocketPutt.EditorTools.GameAssetBuilder.BuildAll();
             BuildMenuScene();
             EditorSceneManager.OpenScene(HubNavigation.MenuScenePath);
         }

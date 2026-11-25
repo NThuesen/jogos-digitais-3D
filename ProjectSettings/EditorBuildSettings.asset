@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/_Game/Scenes/Main.unity
     guid: 8bfe831612b192826b9cbd50b8629bc8
   - enabled: 1
-    path: Assets/_PocketPutt/Scenes/C1-01_Prototype.unity
-    guid: 318f8b8623bcd4aeeb4bfefbbc4cd109
+    path: Assets/_PocketPutt/Scenes/PocketPutt.unity
+    guid: c95be84e7acc5c54a964af45df2f2106
   m_configObjects: {}

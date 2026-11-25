@@ -1,0 +1,8 @@
+{
+    "name": "PocketPutt",
+    "rootNamespace": "PocketPutt",
+    "references": [
+        "GameHub",
+        "Unity.InputSystem"
+    ]
+}

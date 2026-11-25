@@ -3,6 +3,8 @@
     "rootNamespace": "GameHub.Tests",
     "references": [
         "GameHub",
+        "PocketPutt",
+        "SlipperyZlope.RingToss",
         "UnityEngine.UI",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"

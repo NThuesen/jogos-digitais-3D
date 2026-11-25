@@ -14,17 +14,19 @@ namespace GameHub
     {
         public const string MenuScenePath = "Assets/_Menu/Scenes/Menu.unity";
         public const string RingTossScenePath = "Assets/_Game/Scenes/Main.unity";
-        public const string PocketPuttScenePath = "Assets/_PocketPutt/Scenes/C1-01_Prototype.unity";
+        public const string PocketPuttScenePath = "Assets/_PocketPutt/Scenes/PocketPutt.unity";
 
         /// <summary>Pocket Putt was tuned at Unity's default 50 Hz physics step.</summary>
         public const float PocketPuttFixedDeltaTime = 0.02f;
 
         private static float projectFixedDeltaTime = -1f;
+        private static int projectVSyncCount;
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
         private static void CaptureProjectSettings()
         {
             projectFixedDeltaTime = Time.fixedDeltaTime;
+            projectVSyncCount = QualitySettings.vSyncCount;
         }
 
         public static void LaunchRingToss() => Launch(RingTossScenePath, projectFixedDeltaTime);
@@ -39,6 +41,9 @@ namespace GameHub
             // A game may be left mid hit-stop or mid-advert with the clock slowed or
             // stopped. The next scene must start on a normal clock.
             Time.timeScale = 1f;
+            AudioListener.pause = false;
+            Screen.sleepTimeout = SleepTimeout.SystemSetting;
+            QualitySettings.vSyncCount = projectVSyncCount;
             if (fixedDeltaTime > 0f)
             {
                 Time.fixedDeltaTime = fixedDeltaTime;
