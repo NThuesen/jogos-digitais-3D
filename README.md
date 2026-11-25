@@ -2,10 +2,19 @@
 
 Entrega acadêmica que reúne dois jogos em um único projeto Unity. O menu inicial tem um cartão para cada jogo e permite alternar entre eles na mesma sessão.
 
+**[Jogar no navegador — itch.io](https://nthuesen.itch.io/gamehub-3d)**
+
+## Documentação acadêmica
+
+- **[DDE — Design, Dynamics e Experience](docs/DDE.md):** apresentação acadêmica segundo o framework da disciplina, com matriz de rastreabilidade e limites da validação.
+- **[GDD — Game Design Document](docs/GDD.md):** regras, controles, progressão, interface, level design, audiovisual, balanceamento e evidências técnicas dos dois jogos e do hub.
+
+Os documentos descrevem a versão de código de 25/11/2026, incluindo o hotfix WebGL e o botão de retorno do Ring Toss.
+
 | Jogo | Como jogar | Como voltar ao hub |
 | --- | --- | --- |
 | **Pocket Putt** | Minigolfe 3D com 50 fases em cinco campeonatos. Na área de jogo, clique ou toque, puxe na direção oposta à tacada e solte. O comprimento do arraste determina a força. Menos tacadas rendem mais estrelas, que ajudam a liberar as finais. | Volte das fases para o mapa e depois para a tela inicial do Pocket Putt. Use **Voltar ao hub**. No teclado, **Esc** volta uma tela a partir da partida ou dos campeonatos. |
-| **Bako Slop 1 (Ring Toss)** | Jogo de arremesso de argolas. Clique ou toque na área de jogo, arraste para cima em direção aos pinos e solte para lançar. Mova o arraste para os lados para ajustar a mira. | Na partida, use **BACK** para retornar à tela de título e depois **MENU** para abrir o hub. |
+| **Bako Slop 1 (Ring Toss)** | Jogo de arremesso de argolas. Clique ou toque na área de jogo, arraste para cima em direção aos pinos e solte para lançar. Mova o arraste para os lados para ajustar a mira. | Na partida, use **BACK** para retornar à tela de título e depois **BACK TO HUB** para abrir o hub. |
 
 ## Abrir e executar
 
