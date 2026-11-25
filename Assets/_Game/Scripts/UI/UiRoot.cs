@@ -690,13 +690,13 @@ namespace SlipperyZlope.RingToss.UI
                 new Vector2(-150f, -60f), new Vector2(240f, 56f));
             modoDevTitleLabel.gameObject.SetActive(false);
 
-            // Game Hub: back to the menu that launched this game. Top left of the safe
-            // area, the same corner and size as the in-game BACK button, and clear of
-            // MODO DEV in the opposite corner.
+            // The hub action shares the game's solid secondary plaque and stays in
+            // the safe-area corner, away from the title and the MODO DEV indicator.
             Button hubMenu = UiFactory.Button(
-                "Hub Menu", safe, plaqueSprite, new Color(0f, 0f, 0f, 0.42f), "MENU", 34f, textColor);
+                "Hub Menu", safe, plaqueSprite, secondaryButtonColor, "BACK TO HUB", 40f, textColor);
             UiFactory.Place(hubMenu.image.rectTransform, new Vector2(0f, 1f), new Vector2(0f, 1f),
-                new Vector2(40f, -36f), new Vector2(152f, 88f));
+                new Vector2(40f, -36f), new Vector2(320f, 104f));
+            hubMenu.GetComponentInChildren<TextMeshProUGUI>().fontStyle = FontStyles.Bold;
             hubMenu.onClick.AddListener(() => { Click(); GameHub.HubNavigation.ReturnToMenu(); });
         }
 
