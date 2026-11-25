@@ -1,0 +1,28 @@
+{
+    "name": "SlipperyZlope.RingToss",
+    "rootNamespace": "SlipperyZlope.RingToss",
+    "references": [
+        "Unity.InputSystem",
+        "Unity.Cinemachine",
+        "PrimeTween.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "UnityEngine.Advertisements",
+        "GameHub"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "autoReferenced": true,
+    "noEngineReferences": false,
+    "versionDefines": [
+        {
+            "name": "com.unity.ads",
+            "expression": "4.4.0",
+            "define": "SLIPPERYZLOPE_UNITY_ADS"
+        }
+    ]
+}

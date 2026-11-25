@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c2e01d0939a6a1bb3b4a449151cd50, type: 3}
+  m_Name: Level_45
+  m_EditorClassIdentifier: SlipperyZlope.RingToss::SlipperyZlope.RingToss.Config.LevelConfig
+  displayName: Steeplechase
+  subtitle: raised and running
+  theme: {fileID: 11400000, guid: 8dba9e3a2c5e48eae8001a052749a708, type: 2}
+  pegs:
+  - anchor: {x: -0.45740575, y: -2.3480752}
+    heightScale: 1
+    radiusScale: 1
+    baseHeight: 0
+    points: 87
+    motion: 0
+    motionAmplitude: 0
+    motionSpeed: 0
+    motionPhase: 0
+    retractPeriod: 0
+    retractDuty: 0.65
+    retractPhase: 0
+  - anchor: {x: -0.2278711, y: -1.2412907}
+    heightScale: 1
+    radiusScale: 1
+    baseHeight: 0.34
+    points: 198
+    motion: 0
+    motionAmplitude: 0
+    motionSpeed: 0
+    motionPhase: 0
+    retractPeriod: 0
+    retractDuty: 0.65
+    retractPhase: 0
+  - anchor: {x: 0.30227807, y: -0.17722218}
+    heightScale: 1
+    radiusScale: 1
+    baseHeight: 0.34
+    points: 274
+    motion: 1
+    motionAmplitude: 0.4
+    motionSpeed: 0.3
+    motionPhase: 0
+    retractPeriod: 0
+    retractDuty: 0.65
+    retractPhase: 0
+  - anchor: {x: 1.1227232, y: 0.78199726}
+    heightScale: 1
+    radiusScale: 1
+    baseHeight: 0
+    points: 236
+    motion: 1
+    motionAmplitude: 0.32000002
+    motionSpeed: 0.3
+    motionPhase: 0
+    retractPeriod: 0
+    retractDuty: 0.65
+    retractPhase: 0
+  ringCount: 6
+  ringScale: 0.86
+  ringWobble: 0
+  wind: {x: 0, y: 0, z: 0}
+  gustAmplitude: 0
+  gustFrequency: 0.3
+  ringsLeftForTwoStars: 1
+  ringsLeftForThreeStars: 2

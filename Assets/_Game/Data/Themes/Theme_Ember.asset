@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e66d2700bb777a3358da48c2ff0061e9, type: 3}
+  m_Name: Theme_Ember
+  m_EditorClassIdentifier: SlipperyZlope.RingToss::SlipperyZlope.RingToss.Config.StageTheme
+  displayName: Ember Night
+  skyTop: {r: 0.101960786, g: 0.03137255, b: 0.07058824, a: 1}
+  skyMiddle: {r: 0.36862746, g: 0.078431375, b: 0.1254902, a: 1}
+  skyHorizon: {r: 1, g: 0.41960785, b: 0.20784314, a: 1}
+  horizonHeight: 0.3
+  sunColor: {r: 1, g: 0.6901961, b: 0.40392157, a: 1}
+  sunPosition: {x: 0.38, y: 0.05}
+  sunSize: 0.075
+  silhouetteColor: {r: 0.08627451, g: 0.023529412, b: 0.05490196, a: 1}
+  groundColor: {r: 0.18039216, g: 0.07058824, b: 0.1254902, a: 1}
+  boardColor: {r: 0.27058825, g: 0.101960786, b: 0.15686275, a: 1}
+  boardTrimColor: {r: 1, g: 0.7019608, b: 0.2784314, a: 1}
+  pegColor: {r: 0.30588236, g: 0.8039216, b: 0.76862746, a: 1}
+  pegStripeColor: {r: 0.9411765, g: 1, b: 0.99215686, a: 1}
+  pegGlowColor: {r: 1, g: 0.83137256, b: 0.5411765, a: 1}
+  pegCapRestColor: {r: 1, g: 0.90725493, b: 0.74764705, a: 1}
+  ringColors:
+  - {r: 1, g: 0.8784314, b: 0.4, a: 1}
+  - {r: 1, g: 0.56078434, b: 0.8156863, a: 1}
+  - {r: 0.78431374, g: 0.63529414, b: 1, a: 1}
+  - {r: 0.627451, g: 1, b: 0.72156864, a: 1}
+  keyLightColor: {r: 1, g: 0.7882353, b: 0.627451, a: 1}
+  keyLightIntensity: 1.1
+  ambientSky: {r: 0.41960785, g: 0.13333334, b: 0.2, a: 1}
+  ambientEquator: {r: 0.2784314, g: 0.09411765, b: 0.16470589, a: 1}
+  ambientGround: {r: 0.11764706, g: 0.039215688, b: 0.078431375, a: 1}
+  perfectColor: {r: 0.4862745, g: 1, b: 0.8784314, a: 1}
+  successColor: {r: 1, g: 0.7019608, b: 0.2784314, a: 1}
+  failColor: {r: 0.7058824, g: 0.6039216, b: 0.6431373, a: 1}
+  uiTextColor: {r: 1, g: 0.9529412, b: 0.91764706, a: 1}

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c2e01d0939a6a1bb3b4a449151cd50, type: 3}
+  m_Name: Level_30
+  m_EditorClassIdentifier: SlipperyZlope.RingToss::SlipperyZlope.RingToss.Config.LevelConfig
+  displayName: Dance Floor
+  subtitle: nothing is standing still
+  theme: {fileID: 11400000, guid: 4daeb0863b448983da7764693d9d68c6, type: 2}
+  pegs:
+  - anchor: {x: -0.33331776, y: -1.619219}
+    heightScale: 1
+    radiusScale: 1
+    baseHeight: 0
+    points: 151
+    motion: 1
+    motionAmplitude: 0.45
+    motionSpeed: 0.33
+    motionPhase: 0
+    retractPeriod: 0
+    retractDuty: 0.65
+    retractPhase: 0
+  - anchor: {x: 0.33331776, y: -1.619219}
+    heightScale: 1
+    radiusScale: 1
+    baseHeight: 0
+    points: 151
+    motion: 1
+    motionAmplitude: 0.45
+    motionSpeed: 0.33
+    motionPhase: 0
+    retractPeriod: 0
+    retractDuty: 0.65
+    retractPhase: 0
+  - anchor: {x: -1.0303686, y: 0.8007868}
+    heightScale: 1
+    radiusScale: 1
+    baseHeight: 0
+    points: 236
+    motion: 1
+    motionAmplitude: 0.35999998
+    motionSpeed: 0.33
+    motionPhase: 0.5
+    retractPeriod: 0
+    retractDuty: 0.65
+    retractPhase: 0
+  - anchor: {x: 0, y: 0.9000001}
+    heightScale: 1
+    radiusScale: 1
+    baseHeight: 0
+    points: 236
+    motion: 1
+    motionAmplitude: 0.45
+    motionSpeed: 0.33
+    motionPhase: 0
+    retractPeriod: 0
+    retractDuty: 0.65
+    retractPhase: 0
+  - anchor: {x: 1.0303686, y: 0.8007868}
+    heightScale: 1
+    radiusScale: 1
+    baseHeight: 0
+    points: 236
+    motion: 1
+    motionAmplitude: 0.35999998
+    motionSpeed: 0.33
+    motionPhase: 0.5
+    retractPeriod: 0
+    retractDuty: 0.65
+    retractPhase: 0
+  ringCount: 7
+  ringScale: 0.86
+  ringWobble: 0
+  wind: {x: 0, y: 0, z: 0}
+  gustAmplitude: 0
+  gustFrequency: 0.3
+  ringsLeftForTwoStars: 1
+  ringsLeftForThreeStars: 2

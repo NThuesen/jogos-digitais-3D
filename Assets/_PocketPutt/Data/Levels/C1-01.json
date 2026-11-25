@@ -1,0 +1,17 @@
+{
+  "id": "C1-01",
+  "displayName": "Primeiro Putt",
+  "threeStarMaxShots": 1,
+  "twoStarMaxShots": 2,
+  "ballStart": { "x": 0.0, "z": -2.45 },
+  "hole": { "x": 0.0, "z": 2.45 },
+  "floors": [
+    { "x": 0.0, "z": 0.0, "width": 3.1, "length": 7.2, "rotation": 0.0 }
+  ],
+  "walls": [
+    { "x": -1.64, "z": 0.0, "width": 0.28, "length": 7.5, "rotation": 0.0 },
+    { "x": 1.64, "z": 0.0, "width": 0.28, "length": 7.5, "rotation": 0.0 },
+    { "x": 0.0, "z": -3.72, "width": 3.55, "length": 0.28, "rotation": 0.0 },
+    { "x": 0.0, "z": 3.72, "width": 3.55, "length": 0.28, "rotation": 0.0 }
+  ]
+}

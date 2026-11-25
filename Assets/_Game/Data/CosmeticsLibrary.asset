@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb17f970e0b58a1c78d91726ea114ef4, type: 3}
+  m_Name: CosmeticsLibrary
+  m_EditorClassIdentifier: SlipperyZlope.RingToss::SlipperyZlope.RingToss.Config.CosmeticsLibrary
+  skins:
+  - {fileID: 11400000, guid: 0d98f5430802c8a4cb07bdae301e5736, type: 2}
+  - {fileID: 11400000, guid: 6b070538a8fadfb93bbee6ca750474bd, type: 2}
+  - {fileID: 11400000, guid: bfb9d16266472dfcfa7012df66c787de, type: 2}
+  - {fileID: 11400000, guid: 8aa44f0311838250abe0f8cb1b32805b, type: 2}
+  - {fileID: 11400000, guid: a838272eecc3d7520b136b32c2272f1c, type: 2}
+  - {fileID: 11400000, guid: 10f5bfbcfc76e41369e88035d058a8f5, type: 2}
+  - {fileID: 11400000, guid: ee3456ff7f4c53f48ad2ee564e2ebd02, type: 2}
+  - {fileID: 11400000, guid: b0b5ee5f3349acf0abd8c17494f73cc5, type: 2}
+  - {fileID: 11400000, guid: 19156856ae6629634beb68179222c593, type: 2}
+  - {fileID: 11400000, guid: f2c4034ecbd152a4fa7aa818cd8dcdb7, type: 2}
+  trails:
+  - {fileID: 11400000, guid: 771622025c858ca71b3c8062c0f50a86, type: 2}
+  - {fileID: 11400000, guid: 173a6ea127cbc015db93c651d4f6e600, type: 2}
+  - {fileID: 11400000, guid: 50c7e427c38ca840bb9b14b8c2df2156, type: 2}
+  - {fileID: 11400000, guid: 32b1a5aa1ee20a087987fdb99713f927, type: 2}
+  - {fileID: 11400000, guid: ce41cafe29af1c81da1975631fa72a95, type: 2}
+  - {fileID: 11400000, guid: fb23aba5f1dd75ebc8ef8b791bf621bc, type: 2}
+  - {fileID: 11400000, guid: b230ed2af93073931972fcd3ff4045d2, type: 2}
+  - {fileID: 11400000, guid: 36714345b6392f4eabad847f376bee70, type: 2}
+  - {fileID: 11400000, guid: 4dc95d789b849305bab3c08bd1ae9543, type: 2}
+  - {fileID: 11400000, guid: be1019ee2b1185e67957e3c1739e7882, type: 2}

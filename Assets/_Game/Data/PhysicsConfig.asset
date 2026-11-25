@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca35c8440a30a754b8a6bcb10f8d0af, type: 3}
+  m_Name: PhysicsConfig
+  m_EditorClassIdentifier: SlipperyZlope.RingToss::SlipperyZlope.RingToss.Config.PhysicsConfig
+  ringOuterRadius: 0.32
+  ringTubeRadius: 0.05
+  colliderSegments: 14
+  mass: 0.12
+  linearDamping: 0.05
+  angularDamping: 0.35
+  gravityMultiplier: 1.9
+  maxDragScreenFraction: 0.3
+  lateralDragScreenFraction: 0.18
+  deadzoneScreenFraction: 0.016
+  cancelScreenFraction: 0.012
+  invertDragDirection: 0
+  minThrowRange: 1.1
+  maxThrowRange: 6.4
+  dragToRangeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  pitchAtMinRange: 56
+  pitchAtMaxRange: 42
+  minThrowSpeed: 3
+  maxThrowSpeed: 13
+  maxYawDegrees: 20
+  spinAtMinForce: 6
+  spinAtMaxForce: 20
+  tumbleMagnitude: 1.4
+  pegRadius: 0.09
+  pegHeight: 0.92
+  restLinearThreshold: 0.14
+  restAngularThreshold: 0.7
+  minimumFlightTime: 0.3
+  maximumFlightTime: 5
+  outOfBoundsHeight: -3

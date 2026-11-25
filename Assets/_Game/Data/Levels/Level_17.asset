@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c2e01d0939a6a1bb3b4a449151cd50, type: 3}
+  m_Name: Level_17
+  m_EditorClassIdentifier: SlipperyZlope.RingToss::SlipperyZlope.RingToss.Config.LevelConfig
+  displayName: Needle
+  subtitle: the smallest ring yet
+  theme: {fileID: 11400000, guid: 5d4a6e1fbc5843e40bd2eeb4180b9a17, type: 2}
+  pegs:
+  - anchor: {x: -1.2147356, y: 0.7615984}
+    heightScale: 1
+    radiusScale: 1
+    baseHeight: 0
+    points: 196
+    motion: 0
+    motionAmplitude: 0
+    motionSpeed: 0
+    motionPhase: 0
+    retractPeriod: 0
+    retractDuty: 0.65
+    retractPhase: 0
+  - anchor: {x: 1.2147356, y: 0.7615984}
+    heightScale: 1
+    radiusScale: 1
+    baseHeight: 0
+    points: 196
+    motion: 0
+    motionAmplitude: 0
+    motionSpeed: 0
+    motionPhase: 0
+    retractPeriod: 0
+    retractDuty: 0.65
+    retractPhase: 0
+  ringCount: 4
+  ringScale: 0.78
+  ringWobble: 0
+  wind: {x: 0, y: 0, z: 0}
+  gustAmplitude: 0
+  gustFrequency: 0.3
+  ringsLeftForTwoStars: 1
+  ringsLeftForThreeStars: 2

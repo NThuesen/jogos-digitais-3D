@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff931bd3c9aebf4159b1e4e21af94c56, type: 3}
+  m_Name: JuiceConfig
+  m_EditorClassIdentifier: SlipperyZlope.RingToss::SlipperyZlope.RingToss.Config.JuiceConfig
+  idleBreathAmount: 0.045
+  idleBreathDuration: 1.6
+  idleBobAmount: 0.035
+  idleSpinSpeed: 22
+  armPopDuration: 0.34
+  armPopOvershoot: 1.14
+  aimZoomAmount: 0.035
+  aimZoomDuration: 0.22
+  aimRollDegrees: 16
+  aimTiltDegrees: 18
+  aimDamping: 20
+  previewDotSpeed: 2.4
+  previewPulseAmount: 0.35
+  previewFadeDuration: 0.12
+  trailTime: 0.32
+  trailStartWidth: 0.13
+  shadowFadeHeight: 3.2
+  shadowMaxScale: 1.3
+  shadowMinScale: 0.26
+  shadowMaxAlpha: 0.55
+  hitStopDuration: 0.07
+  hitStopTimeScale: 0.04
+  perfectHitStopDuration: 0.11
+  settleAmplitude: 0.13
+  settleDecay: 7.5
+  settleFrequency: 6.2
+  settleDuration: 0.85
+  settleTiltPerMetre: 62
+  catchPopScale: 1.22
+  catchPopDuration: 0.28
+  pegPulseDuration: 0.45
+  pegPulseEmission: 3.4
+  pegSquashAmount: 0.18
+  pegSquashDuration: 0.36
+  pegClaimedEmission: 1.15
+  shakeOnThrow: 0.03
+  shakeOnBounce: 0.05
+  shakeOnRinger: 0.1
+  shakeDuration: 0.28
+  shakeFrequency: 22
+  scoreCountUpDuration: 0.42
+  scorePopScale: 1.28
+  scorePopDuration: 0.3
+  popupRise: 1.05
+  popupDuration: 0.95
+  popupPunchScale: 1.45
+  missLingerDuration: 0.28
+  missFadeDuration: 0.3
+  comboPitchStep: 0.028
+  comboPitchCeiling: 1.26
+  confettiComboThreshold: 3
+  resetDelay: 0.22
+  levelIntroDuration: 0.9
+  levelOutroDelay: 0.7
+  screenFadeDuration: 0.32
+  floorGlowBase: 0.07
+  floorGlowPerPerfect: 0.15
+  floorGlowMaxStreak: 4
+  floorGlowRimBoost: 1.7
+  floorGlowSkirt: 1.05
+  floorGlowRise: 0.12
+  floorGlowFall: 0.4
+  floorGlowFlash: 0.08

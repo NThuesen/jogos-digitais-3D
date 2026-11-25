@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f66a7750db2c08a0bd2f802d374dc7f, type: 3}
+  m_Name: Trail_08_Starfall
+  m_EditorClassIdentifier: SlipperyZlope.RingToss::SlipperyZlope.RingToss.Config.TrailStyle
+  displayName: Starfall
+  price: 2750
+  time: 0.48
+  startWidth: 0.082
+  endWidth: 0.03
+  colorMode: 2
+  color: {r: 1, g: 1, b: 1, a: 1}
+  startAlpha: 0.63
+  endAlpha: 0
+  sparkRate: 44
+  emitters: 3
+  core: 0
+  rainbowSpan: 0.9

@@ -1,0 +1,24 @@
+{
+    "name": "SlipperyZlope.RingToss.Tests.PlayMode",
+    "rootNamespace": "SlipperyZlope.RingToss.Tests",
+    "references": [
+        "SlipperyZlope.RingToss",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ]
+}

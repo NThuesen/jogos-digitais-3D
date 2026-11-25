@@ -1,0 +1,19 @@
+{
+    "name": "SlipperyZlope.RingToss.Editor",
+    "rootNamespace": "SlipperyZlope.RingToss.EditorTools",
+    "references": [
+        "SlipperyZlope.RingToss",
+        "Unity.Cinemachine",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Universal.Editor",
+        "Unity.RenderPipelines.Core.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "autoReferenced": true,
+    "noEngineReferences": false
+}
