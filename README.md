@@ -24,6 +24,12 @@ O Pocket Putt guarda seu progresso em `pocketputt_save.json` no diretório de da
 
 Na primeira entrada, o Bako pode mostrar sua tela de privacidade antes do título.
 
+## Build WebGL para itch.io
+
+Com o módulo WebGL do Unity instalado, execute `Unity -batchmode -nographics -projectPath <pasta-do-projeto> -buildTarget WebGL -executeMethod ItchWebBuild.Run -logFile <arquivo-de-log>`. A saída fica em `Builds/ItchWebGL`; compacte o conteúdo dessa pasta, com `index.html` na raiz do ZIP.
+
+A página acompanha o tamanho do navegador no hub e no Ring Toss. Ao entrar no Pocket Putt, o canvas inteiro é centralizado em 9:16, com fundo neutro ao redor. Isso mantém UI Toolkit, câmera e coordenadas de entrada na mesma área; ao voltar ao hub, o canvas volta a ocupar a janela. O pós-processamento WebGL aplica o estilo responsivo na página gerada.
+
 ## Créditos
 
 - Nicholas Thuesen

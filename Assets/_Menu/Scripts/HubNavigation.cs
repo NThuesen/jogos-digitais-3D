@@ -1,3 +1,4 @@
+using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -19,6 +20,11 @@ namespace GameHub
         /// <summary>Pocket Putt was tuned at Unity's default 50 Hz physics step.</summary>
         public const float PocketPuttFixedDeltaTime = 0.02f;
 
+#if UNITY_WEBGL && !UNITY_EDITOR
+        [DllImport("__Internal")]
+        private static extern void SetPocketViewport(int enabled);
+#endif
+
         private static float projectFixedDeltaTime = -1f;
         private static int projectVSyncCount;
 
@@ -38,6 +44,9 @@ namespace GameHub
 
         private static void Launch(string scenePath, float fixedDeltaTime)
         {
+#if UNITY_WEBGL && !UNITY_EDITOR
+            SetPocketViewport(scenePath == PocketPuttScenePath ? 1 : 0);
+#endif
             // A game may be left mid hit-stop or mid-advert with the clock slowed or
             // stopped. The next scene must start on a normal clock.
             Time.timeScale = 1f;
