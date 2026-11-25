@@ -71,3 +71,9 @@ Desktop.ini
 # Mono crash dumps. Unity drops a 10 MB blob in the project root whenever the
 # editor is killed rather than closed, which happens routinely in headless runs.
 mono_crash.*
+
+# Windows/Unity diagnostics and test results
+*.dmp
+*.stackdump
+/[Tt]est[Rr]esults/
+/[Qq][Aa][Oo]utput/
